@@ -98,14 +98,13 @@ body{
 }
 
 form .form-info {
-    max-width: 300px;
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
 }
 
 form .form-info input{
-    flex: 1;
     border: solid 1px #E5E7EB;
     outline: none;
     padding: 6px 6px;
@@ -113,6 +112,7 @@ form .form-info input{
     font-size: 0.9rem;
     border-radius: 4px;
 }
+
 
 form .form-info label {
     padding: 2px 1px;
@@ -150,13 +150,20 @@ form .form-info input::placeholder{
     font-size: 0.9rem; opacity: 0.6; 
 
 }
+
 /* Form Validation */
 form .form-info input:focus{
     border-color: #3e3eff;
-    box-shadow: 2px 2px 6px rgba(62, 62, 255, 0.3);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 form .form-info input[type="password"]:invalid{
     border-color: red ;
-    box-shadow: none;
+}
+
+
+.error::after {
+    content: "* Passwords do not match";
+    font-size: 11px;
+    color: red;
 }
