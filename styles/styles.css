@@ -173,9 +173,9 @@ form .form-info input:focus{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-form .form-info input[type="password"]:invalid{
+/* form .form-info input[type="password"]:invalid{
     border-color: red ;
-}
+} */
 
 
 .error::after {
