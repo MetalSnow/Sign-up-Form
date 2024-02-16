@@ -1,6 +1,6 @@
 @font-face {
     font-family: "LostDungeon";
-    src: url("fonts/The\ Lost\ Dungeon.otf");
+    src: url("../fonts/The\ Lost\ Dungeon.otf");
 }
 
 body{
@@ -13,7 +13,7 @@ body{
 .section-one{
     flex: 1;
     position: relative;
-    background-image: url("images/esports-tn.jpg");
+    background-image: url("../images/esports-tn.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
