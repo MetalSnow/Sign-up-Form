@@ -137,6 +137,16 @@ form .form-submit{
     margin-bottom: 10px;
 }
 
+.form-submit button:hover{
+    background-color: #ff4d00d6;
+}
+
+.form-submit button:active{
+    position: relative;
+    left: 1px;
+    box-shadow: none;
+}
+
 .form-submit p{
     font-size: 0.9rem;
     font-weight: 500;
@@ -145,6 +155,10 @@ form .form-submit{
 color: #ff4d00;
 text-decoration: none;
 }
+
+.form-submit p a:hover{
+    color: #b43802;
+    }
 
 form .form-info input::placeholder{
     font-size: 0.9rem; opacity: 0.6; 
