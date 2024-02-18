@@ -91,7 +91,7 @@ body{
 
 .form-div .input-section{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2,minmax(200px, 350px));
     row-gap: 15px;
     font-size: 0.8rem;
     font-weight: 500;
@@ -100,7 +100,6 @@ body{
 }
 
 form .form-info {
-    max-width: 280px;
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
